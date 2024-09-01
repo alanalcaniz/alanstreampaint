@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        #twitch-player {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a mi página web</h1>
+    <p>Contenido de la web...</p>
+
+    <div id="twitch-player">
+        <iframe
+            src="https://player.twitch.tv/?arrozydesgracias&parent=localhost"
+            height="300"
+            width="400"
+            allowfullscreen="true">
+        </iframe>
+    </div>
+</body>
+</html>
